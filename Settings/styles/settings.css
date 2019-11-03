@@ -1,0 +1,15 @@
+#options {
+    height: auto;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#options * {
+    height: 10%;
+    margin: 5%;
+}
+
+.padding {
+    height: 20%;
+}

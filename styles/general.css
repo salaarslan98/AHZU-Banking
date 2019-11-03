@@ -56,7 +56,7 @@ header * {
     height: 100%;
 }
 
-header div {
+header a {
     grid-row: 2 / 3;
     border-radius: 50%;
     background-color: var(--prim-purp);

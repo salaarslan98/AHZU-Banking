@@ -1,0 +1,16 @@
+#options {
+    height: auto;
+    margin: 0 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+#options div {
+    height: 10%;
+    margin: 5%;
+    text-align: center;
+}
+
+.padding {
+    height: 20%;
+}
