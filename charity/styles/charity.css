@@ -1,0 +1,27 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    margin: auto 2%;
+}
+
+#content * {
+    height: auto;
+}
+
+#content div {
+    height: 10%;
+    margin: 5%;
+}
+
+select {
+    height: auto;
+}
+
+option { height: 50%; }
+
+.padding {
+    height: 10%;
+}
