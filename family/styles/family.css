@@ -1,0 +1,56 @@
+@import url("../styles/general.css");
+
+#title { height: 15%; }
+
+#super-money {
+    width: 100%;
+    height: 15%;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.family-entry {
+    margin: 5% 0;
+    height: 10%;
+    display: grid;
+    grid-template-columns: 2.5% 65% 5% 25% 2.5%;
+    grid-template-rows: 5% 90% 5%;
+}
+
+.family-entry * {
+    grid-row: 2 / 3;
+}
+
+.family-entry .name {
+    grid-column: 2 / 3;
+}
+
+.family-entry .balance {
+    grid-column: 4 / 5;
+}
+
+#linked {
+    margin: 5%;
+    height: auto;
+}
+
+#linked .family-entry {
+    background-color: #AAA;
+    height: 5em;
+}
+
+#linked .family-entry:first-of-type {
+    border-radius: 10% 0;
+}
+
+#linked .family-entry:last-of-type {
+    border-radius: 0 10%;
+}
+
+#linked .family-entry:only-of-type {
+    border-radius: 10%;
+}
+
+.padding {
+    height: 15%;
+}

@@ -1,0 +1,25 @@
+@import url("../../styles/general.css");
+
+#industry-selector {
+    margin: 5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#industry-selector div {
+    margin: 5% 0;
+
+    display: grid;
+    grid-template-columns: 2.5% 30% 5% 60% 2.5%;
+    grid-template-rows: 5% 90% 5%;
+}
+
+#industry-selector div * { grid-row: 2 / 3; }
+
+#industry-selector div input { grid-column: 2 / 3; }
+#industry-selector div span { grid-column: 4 / 5; }
+
+#industy-selector input[type="submit"] {
+    padding: 0 10%;
+}
